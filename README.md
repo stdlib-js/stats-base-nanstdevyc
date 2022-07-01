@@ -76,32 +76,30 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-nanstdevyc
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-nanstdevyc = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-nanstdevyc@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-nanstdevyc@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.nanstdevyc;
-})();
-</script>
+var nanstdevyc = require( '@stdlib/stats-base-nanstdevyc' );
 ```
 
 #### nanstdevyc( N, correction, x, stride )
@@ -200,16 +198,11 @@ var v = nanstdevyc.ndarray( N, 1, x, 2, 1 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-nanstdevyc@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var round = require( '@stdlib/math-base-special-round' );
+var Float64Array = require( '@stdlib/array-float64' );
+var nanstdevyc = require( '@stdlib/stats-base-nanstdevyc' );
 
 var x;
 var i;
@@ -222,11 +215,6 @@ console.log( x );
 
 var v = nanstdevyc( x.length, 1, x, 1 );
 console.log( v );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -328,6 +316,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/stats-base-nanstdevyc/tree/deno
 [umd-url]: https://github.com/stdlib-js/stats-base-nanstdevyc/tree/umd
 [esm-url]: https://github.com/stdlib-js/stats-base-nanstdevyc/tree/esm
+[branches-url]: https://github.com/stdlib-js/stats-base-nanstdevyc/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-nanstdevyc/main/LICENSE
 
@@ -341,15 +330,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dnanstdevyc]: https://github.com/stdlib-js/stats-base-dnanstdevyc/tree/umd
+[@stdlib/stats/base/dnanstdevyc]: https://github.com/stdlib-js/stats-base-dnanstdevyc
 
-[@stdlib/stats/base/nanvarianceyc]: https://github.com/stdlib-js/stats-base-nanvarianceyc/tree/umd
+[@stdlib/stats/base/nanvarianceyc]: https://github.com/stdlib-js/stats-base-nanvarianceyc
 
-[@stdlib/stats/base/nanstdev]: https://github.com/stdlib-js/stats-base-nanstdev/tree/umd
+[@stdlib/stats/base/nanstdev]: https://github.com/stdlib-js/stats-base-nanstdev
 
-[@stdlib/stats/base/snanstdevyc]: https://github.com/stdlib-js/stats-base-snanstdevyc/tree/umd
+[@stdlib/stats/base/snanstdevyc]: https://github.com/stdlib-js/stats-base-snanstdevyc
 
-[@stdlib/stats/base/stdevyc]: https://github.com/stdlib-js/stats-base-stdevyc/tree/umd
+[@stdlib/stats/base/stdevyc]: https://github.com/stdlib-js/stats-base-stdevyc
 
 <!-- </related-links> -->
 
