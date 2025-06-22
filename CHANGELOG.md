@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-29)
+## Unreleased (2025-06-22)
+
+<section class="features">
+
+### Features
+
+-   [`12a911c`](https://github.com/stdlib-js/stdlib/commit/12a911c8cc1295429aa84fbafd3f09d0eabb8e10) - add accessor protocol support and refactor `stats/base/nanstdevyc` [(#6206)](https://github.com/stdlib-js/stdlib/pull/6206)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#5672](https://github.com/stdlib-js/stdlib/issues/5672)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`12a911c`](https://github.com/stdlib-js/stdlib/commit/12a911c8cc1295429aa84fbafd3f09d0eabb8e10) - **feat:** add accessor protocol support and refactor `stats/base/nanstdevyc` [(#6206)](https://github.com/stdlib-js/stdlib/pull/6206) _(by Rahul Kumar, Gururaj Gurram)_
 -   [`d2ea3a2`](https://github.com/stdlib-js/stdlib/commit/d2ea3a24c45e99cc92f6338f9cfdbfd8ba408e68) - **refactor:** update paths _(by Aayush Khanna)_
 
 </details>
@@ -24,9 +47,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
+-   Gururaj Gurram
+-   Rahul Kumar
 
 </section>
 
