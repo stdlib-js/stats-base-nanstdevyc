@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-22)
+## Unreleased (2025-07-09)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`0ce3935`](https://github.com/stdlib-js/stdlib/commit/0ce393575bc9f92b32158f83cc47c02aec2445e8) - **refactor:** rename files and update paths _(by Athan Reines)_
 -   [`d3d045f`](https://github.com/stdlib-js/stdlib/commit/d3d045f6cc9b989c0f1769a20c79b27254e2bf26) - **refactor:** consolidate files _(by Athan Reines)_
 -   [`12a911c`](https://github.com/stdlib-js/stdlib/commit/12a911c8cc1295429aa84fbafd3f09d0eabb8e10) - **feat:** add accessor protocol support and refactor `stats/base/nanstdevyc` [(#6206)](https://github.com/stdlib-js/stdlib/pull/6206) _(by Rahul Kumar, Gururaj Gurram)_
 -   [`d2ea3a2`](https://github.com/stdlib-js/stdlib/commit/d2ea3a24c45e99cc92f6338f9cfdbfd8ba408e68) - **refactor:** update paths _(by Aayush Khanna)_
