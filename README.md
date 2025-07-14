@@ -267,7 +267,7 @@ console.log( v );
 -   <span class="package-name">[`@stdlib/stats-base/nanvarianceyc`][@stdlib/stats/base/nanvarianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of a strided array ignoring NaN values and using a one-pass algorithm proposed by Youngs and Cramer.</span>
 -   <span class="package-name">[`@stdlib/stats-base/nanstdev`][@stdlib/stats/base/nanstdev]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats-base/snanstdevyc`][@stdlib/stats/base/snanstdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a single-precision floating-point strided array ignoring NaN values and using a one-pass algorithm proposed by Youngs and Cramer.</span>
--   <span class="package-name">[`@stdlib/stats-base/stdevyc`][@stdlib/stats/base/stdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/stdevyc`][@stdlib/stats/strided/stdevyc]</span><span class="delimiter">: </span><span class="description">calculate the standard deviation of a strided array using a one-pass algorithm proposed by Youngs and Cramer.</span>
 
 </section>
 
@@ -365,7 +365,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/base/snanstdevyc]: https://github.com/stdlib-js/stats-base-snanstdevyc
 
-[@stdlib/stats/base/stdevyc]: https://github.com/stdlib-js/stats-base-stdevyc
+[@stdlib/stats/strided/stdevyc]: https://github.com/stdlib-js/stats-strided-stdevyc
 
 <!-- </related-links> -->
 
